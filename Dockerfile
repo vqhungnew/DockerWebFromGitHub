@@ -9,7 +9,7 @@ WORKDIR /var/www/html
 
 # Set the correct permissions 
 RUN rm -rf /var/www/html/*
-
+ 
 
 # Clone the repository using a personal access token
 #ARG GITHUB_TOKEN
